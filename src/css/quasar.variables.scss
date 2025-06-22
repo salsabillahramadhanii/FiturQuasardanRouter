@@ -1,25 +1,21 @@
-// Quasar SCSS (& Sass) Variables
-// --------------------------------------------------
-// To customize the look and feel of this app, you can override
-// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+// src/css/quasar.variables.scss
+// Atau jika Anda tidak punya file ini, tambahkan ke src/css/app.scss
 
-// Check documentation for full list of Quasar variables
+$primary:       #1976D2; // Warna biru Quasar default
+$secondary:     #26A69A; // Warna teal Quasar default
+$accent:        #9C27B0; // Warna ungu Quasar default
 
-// Your own variables (that are declared here) and Quasar's own
-// ones will be available out of the box in your .vue/.scss/.sass files
+// Tambahkan variabel warna kustom baru untuk tampilan gaming
+$dark-gaming:   #2a2a3a;   // Latar belakang gelap untuk gaming
+$light-gaming:  #3a3a4a;   // Latar belakang gelap sedikit terang
+$accent-red:    #e53935;   // Merah cerah
+$accent-blue:   #2196f3;   // Biru cerah
+$text-light:    #f0f0f0;   // Warna teks terang
+$card-bg:       #ffffff;   // Latar belakang card
+$border-light:  #eeeeee;   // Border terang
 
-// It's highly recommended to change the default colors
-// to match your app's branding.
-// Tip: Use the "Theme Builder" on Quasar's documentation website.
-
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
-
-$dark      : #1D1D1D;
-$dark-page : #121212;
-
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+// Anda bisa menyesuaikan warna Quasar default juga jika mau
+$positive: #21BA45;
+$negative: #C10015;
+$info:     #31CCEC;
+$warning:  #F2C037;
